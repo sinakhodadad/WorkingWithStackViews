@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43313742221573C9002E5561 /* 445430_02_11_XR15_customizingstackviewui in Resources */ = {isa = PBXBuildFile; fileRef = 4331373D221573C7002E5561 /* 445430_02_11_XR15_customizingstackviewui */; };
+		43313743221573C9002E5561 /* 445430_02_06_XR15_usingstackviews in Resources */ = {isa = PBXBuildFile; fileRef = 4331373E221573C8002E5561 /* 445430_02_06_XR15_usingstackviews */; };
+		43313744221573C9002E5561 /* 445430_02_09_XR15_layingoutwithstackviews in Resources */ = {isa = PBXBuildFile; fileRef = 4331373F221573C8002E5561 /* 445430_02_09_XR15_layingoutwithstackviews */; };
+		43313745221573C9002E5561 /* 445430_02_10_XR15_layingoutuiwithstackviews in Resources */ = {isa = PBXBuildFile; fileRef = 43313740221573C8002E5561 /* 445430_02_10_XR15_layingoutuiwithstackviews */; };
+		43313746221573C9002E5561 /* 445430_02_08_XR15_resolvingambiguouslayouts in Resources */ = {isa = PBXBuildFile; fileRef = 43313741221573C9002E5561 /* 445430_02_08_XR15_resolvingambiguouslayouts */; };
 		43FB96C62214847A009D1F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB96C52214847A009D1F4D /* AppDelegate.swift */; };
 		43FB96C82214847A009D1F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FB96C72214847A009D1F4D /* ViewController.swift */; };
 		43FB96CB2214847A009D1F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43FB96C92214847A009D1F4D /* Main.storyboard */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4331373D221573C7002E5561 /* 445430_02_11_XR15_customizingstackviewui */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 445430_02_11_XR15_customizingstackviewui; sourceTree = "<group>"; };
+		4331373E221573C8002E5561 /* 445430_02_06_XR15_usingstackviews */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 445430_02_06_XR15_usingstackviews; sourceTree = "<group>"; };
+		4331373F221573C8002E5561 /* 445430_02_09_XR15_layingoutwithstackviews */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 445430_02_09_XR15_layingoutwithstackviews; sourceTree = "<group>"; };
+		43313740221573C8002E5561 /* 445430_02_10_XR15_layingoutuiwithstackviews */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 445430_02_10_XR15_layingoutuiwithstackviews; sourceTree = "<group>"; };
+		43313741221573C9002E5561 /* 445430_02_08_XR15_resolvingambiguouslayouts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = 445430_02_08_XR15_resolvingambiguouslayouts; sourceTree = "<group>"; };
 		43FB96C22214847A009D1F4D /* WorkingWithStackViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkingWithStackViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43FB96C52214847A009D1F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43FB96C72214847A009D1F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +84,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43313747221573DE002E5561 /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				4331373E221573C8002E5561 /* 445430_02_06_XR15_usingstackviews */,
+				43313741221573C9002E5561 /* 445430_02_08_XR15_resolvingambiguouslayouts */,
+				4331373F221573C8002E5561 /* 445430_02_09_XR15_layingoutwithstackviews */,
+				43313740221573C8002E5561 /* 445430_02_10_XR15_layingoutuiwithstackviews */,
+				4331373D221573C7002E5561 /* 445430_02_11_XR15_customizingstackviewui */,
+			);
+			path = Slides;
+			sourceTree = "<group>";
+		};
 		43FB96B92214847A009D1F4D = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +119,7 @@
 		43FB96C42214847A009D1F4D /* WorkingWithStackViews */ = {
 			isa = PBXGroup;
 			children = (
+				43313747221573DE002E5561 /* Slides */,
 				43FB96C52214847A009D1F4D /* AppDelegate.swift */,
 				43FB96C72214847A009D1F4D /* ViewController.swift */,
 				43FB96C92214847A009D1F4D /* Main.storyboard */,
@@ -231,7 +254,12 @@
 			files = (
 				43FB96D02214847B009D1F4D /* LaunchScreen.storyboard in Resources */,
 				43FB96CD2214847B009D1F4D /* Assets.xcassets in Resources */,
+				43313744221573C9002E5561 /* 445430_02_09_XR15_layingoutwithstackviews in Resources */,
+				43313746221573C9002E5561 /* 445430_02_08_XR15_resolvingambiguouslayouts in Resources */,
 				43FB96CB2214847A009D1F4D /* Main.storyboard in Resources */,
+				43313743221573C9002E5561 /* 445430_02_06_XR15_usingstackviews in Resources */,
+				43313742221573C9002E5561 /* 445430_02_11_XR15_customizingstackviewui in Resources */,
+				43313745221573C9002E5561 /* 445430_02_10_XR15_layingoutuiwithstackviews in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N2ZC4KDML9;
+				DEVELOPMENT_TEAM = J89TN7BQWM;
 				INFOPLIST_FILE = WorkingWithStackViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N2ZC4KDML9;
+				DEVELOPMENT_TEAM = J89TN7BQWM;
 				INFOPLIST_FILE = WorkingWithStackViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
